@@ -1,0 +1,66 @@
+body {
+	background-color: #f5ffff; /* chaque ligne termine par ";"*/
+	
+}
+
+header img{
+	width: 100%;
+	height: auto; /* Pour rendre une img responsive, ajustable a l'ecran */
+	
+	
+}
+
+nav{
+	border: 1px solid black;
+	height: 30px;
+	background-color: #333;
+	
+	
+}
+
+nav ul {
+	list-style-type: none; /* Pour supprimer les points */
+	margin: 0;
+	padding: 0;
+	
+}
+nav ul li {
+	background-color: #333;
+	border: 0px solid #669999; /* li est un élement en bloc, occupe tout l'espace de l'element parent*/
+	width: 150px;
+	float: left;
+}
+
+nav ul li a{
+	border: 0px solid red; /* "a" est un élement "in line" et pas aen bloc, on peux pas modifier la largeur*/
+	width: 150px;
+	display: block;
+	text-decoration: none; /* Pour eliminer le soulignement du lien */
+	text-align: center;
+	height: 30px; /*Centrer le texte dans les cases*/
+	line-height: 30px; /* Corriger et centrer verticalement le height*/
+	color: white;
+}
+
+nav ul li ul{
+	display: none;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav ul li a:hover{ /* Quand on passe souris par dessus, changer couleur */
+	background-color: #d6d6d6;
+	color: #000000;
+}
+
+section{
+	border: 1px solid black;
+	margin: 70px auto 0 auto;
+	width: 70%;
+	padding: 0 0 0 20px;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px black; /* ombre 3D sous les cases */
+	
+}
